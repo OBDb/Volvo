@@ -1,6 +1,7 @@
 { "ecu": [
     { "hdr": "7E0",  "type": "engine" },
     { "hdr": "7E1",  "type": "transmission" },
+    { "hdr": "7E3",  "type": "motor" },
     { "hdr": "DA10", "type": "engine" },
     { "hdr": "DA18", "type": "transmission" }
   ],
