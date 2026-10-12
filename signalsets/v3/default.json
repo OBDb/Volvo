@@ -1285,199 +1285,199 @@
   "signals": [
     {"id": "VOLVO_MIS_4", "path": "Engine", "fmt": {"bix": 96, "len": 8, "max": 255, "unit": "scalar" }, "name": "Cylinder 4 misfire"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E14"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E14"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_T_CONV", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "percent" }, "name": "A/T converter"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E16"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E16"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_ACT_GEAR_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 15.99, "div": 4096, "unit": "scalar" }, "name": "AT, actual gear ratio"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E19"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E19"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_EXPECTED_GEAR_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Transmission expected gear ratio"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E1B"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E1B"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_SLAVE_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Slave A/T"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E1E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E1E"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission line pressure solenoid current, requested"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E24"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E24"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_FIXED_LOCK_UP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission fixed lock-up"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E2F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E2F"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LEADING_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Leading A/T"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E3F"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E3F"}, "freq": 5,
   "signals": [
     {"id": "VOLVO_ATF_T_7E1", "path": "Transmission", "fmt": { "len": 16, "max": 8191, "min": -8192, "div": 4, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E40"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E40"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission line pressure solenoid current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E41"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E41"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LOCK_UP_SOLENOID_SLU", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Torque converter lock-up solenoid current, requested"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E42"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E42"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLC1_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SLC1, requested, current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E43"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E43"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLC2_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SLC2, requested, current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E44"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E44"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLC3_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SLC3, requested, current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E45"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E45"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLB1_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SLB1, requested, current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E47"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E47"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LOCK_UP_SOLENOID_SLU_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Torque converter lock-up solenoid current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E48"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E48"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLC1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SLC1 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E49"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E49"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLC2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SLC2 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "1E4A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E4A"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLC3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SLC3 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "6310"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "6310"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_GEAR_SELECTOR_P_0_R_1_N_2_D_3", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission gear selector p, 0 r, 1 n, 2 d, 3"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "D904"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "D904"}, "freq": 5,
   "signals": [
     {"id": "VOLVO_ATF_T_VAR_2", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 2"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "D90C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "D90C"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_SLC1_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "SLC1 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "D90F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "D90F"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_SLC2_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "SLC2 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "D910"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "D910"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_SLC3_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "SLC3 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA34"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA34"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_GEAR_RAT_ACT_7E1", "path": "Transmission", "fmt": { "len": 16, "max": 15.99, "div": 4096, "unit": "scalar" }, "name": "Gear ratio, actual"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA3B"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA3B"}, "freq": 5,
   "signals": [
     {"id": "VOLVO_ATF_T_VAR_2_7E1", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 2"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA3C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA3C"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LOCK_UP_FUNCTION", "path": "Engine", "fmt": { "len": 8, "max": 84.66, "min": -0.333, "div": 3, "add": -0.333333, "unit": "scalar" }, "name": "Transmission lock-up function"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA47"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA47"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_GEAR_RAT_EXPECTED", "path": "Transmission", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "scalar" }, "name": "Gear ratio expected"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA49"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA49"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLT_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission line pressure solenoid current, requested"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA4A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA4A"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SLT_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission line pressure solenoid current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA4B"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA4B"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LOCK_UP_SOLENOID_SLU_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Torque converter lock-up solenoid, requested"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA4C"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA4C"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LOCK_UP_SOLENOID_SLU_7E1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Torque converter lock-up solenoid"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA4D"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA4D"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SL1_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SL1, requested, current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA4E"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA4E"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SL1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SL1 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA4F"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA4F"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SL2_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SL2, requested, current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA50"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA50"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SL2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SL2 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA51"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA51"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SL3_REQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SL3, requested, current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DA52"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DA52"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_LINEAR_P_SOLENOID_SL3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Transmission linear pressure solenoid SL3 current"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DCE4"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DCE4"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_KICKDOWN", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission kickdown"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DCEA"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DCEA"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_SELECTOR", "path": "Engine", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "scalar" }, "name": "Transmission selector"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DCF0"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DCF0"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_TQ_LIMITING", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "newtonMeters" }, "name": "Transmission torque limiting"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
   "signals": [
     {"id": "VOLVO_ODO_TCM", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DD02"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD02"}, "freq": 5,
   "signals": [
     {"id": "VOLVO_MECU_SUP_V", "path": "Battery", "fmt": { "len": 8, "max": 63.75, "div": 4, "unit": "volts" }, "name": "Transmission control module supply voltage"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DD81"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD81"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_GEAR_7E1", "path": "Transmission", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission gear"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DD89"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD89"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_SOLENOID_S1_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission solenoid S1 status"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DD8A"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD8A"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_SOLENOID_S2_STAT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Transmission solenoid S2 status"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DD8D"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD8D"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_TQ", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "newtonMeters" }, "name": "Transmission torque"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DD8E"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DD8E"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_ACCEL_PEDAL_POS", "path": "Movement", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "DF08"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "DF08"}, "freq": 1,
   "signals": [
     {"id": "VOLVO_START_LOCK_START", "path": "Engine", "fmt": { "len": 8, "max": 1, "div": 255, "unit": "scalar" }, "name": "Transmission start lock - start approved"}
   ]},
-{ "hdr": "7E1", "rax": "1EC", "dbg": true, "cmd": {"22": "E504"}, "freq": 0.25,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "E504"}, "freq": 0.25,
   "signals": [
     {"id": "VOLVO_BRAKE_PEDAL_POS", "path": "Control", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake pedal position"}
   ]},
