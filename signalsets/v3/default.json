@@ -2314,6 +2314,10 @@
   "signals": [
     {"id": "VOLVO_FUEL_P_DA10", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Fuel pressure"}
   ]},
+{ "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "1E3F"}, "freq": 5,
+  "signals": [
+    {"id": "VOLVO_ATF_T_1E3F", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
 { "hdr": "DA18", "rax": "18", "dbg": true, "cmd": {"22": "E004"}, "freq": 5,
   "signals": [
     {"id": "VOLVO_ATF_T_DA18", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
